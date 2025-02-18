@@ -1,0 +1,6 @@
+selenium==4.28.1
+webdriver-manager==4.0.2
+python-telegram-bot==13.7
+python-dotenv==1.0.0
+beautifulsoup4==4.13.3
+flask==3.0.2
