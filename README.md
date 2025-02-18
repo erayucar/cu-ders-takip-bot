@@ -8,7 +8,6 @@ Bu bot, Çukurova Üniversitesi ders kayıt sistemindeki derslerin kontenjan dur
 - 🔄 Her 3 dakikada bir kontenjan kontrolü
 - 📱 Telegram üzerinden kolay kullanım
 - 🔔 Kontenjan açıldığında anında bildirim
-- 👥 Birden fazla kullanıcı desteği
 - 🔒 Güvenli giriş sistemi
 
 ## Kurulum Adımları
@@ -30,7 +29,7 @@ Bu bot, Çukurova Üniversitesi ders kayıt sistemindeki derslerin kontenjan dur
 
 1. Bu projeyi bilgisayarınıza indirin:
    ```bash
-   git clone https://github.com/kullanici_adi/cu-ders-takip-bot.git
+   git clone https://github.com/erayucar/cu-ders-takip-bot.git
    cd cu-ders-takip-bot
    ```
 
@@ -38,15 +37,6 @@ Bu bot, Çukurova Üniversitesi ders kayıt sistemindeki derslerin kontenjan dur
    ```bash
    pip install -r requirements.txt
    ```
-
-### 4. Firebase Kurulumu
-
-1. [Firebase Console](https://console.firebase.google.com/)'a gidin
-2. Yeni bir proje oluşturun
-3. "Project Settings" > "Service accounts" bölümüne gidin
-4. "Generate New Private Key" butonuna tıklayın
-5. İndirilen JSON dosyasını `firebase-key.json` olarak proje klasörüne kaydedin
-
 ### 5. Yapılandırma
 
 1. Proje klasöründe `.env` dosyası oluşturun:
@@ -97,10 +87,6 @@ Bu bot, Çukurova Üniversitesi ders kayıt sistemindeki derslerin kontenjan dur
    ```bash
    pip install --upgrade selenium webdriver-manager
    ```
-
-2. "Firebase bağlantı hatası" alıyorsanız:
-   - `firebase-key.json` dosyasının doğru konumda olduğunu kontrol edin
-   - Firebase projenizin aktif olduğundan emin olun
 
 3. "Telegram bot hatası" alıyorsanız:
    - Bot tokeninizin doğru olduğundan emin olun
