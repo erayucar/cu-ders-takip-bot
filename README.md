@@ -96,7 +96,3 @@ Bu bot, Çukurova Üniversitesi ders kayıt sistemindeki derslerin kontenjan dur
 Sorun yaşarsanız veya yardıma ihtiyacınız olursa:
 - Telegram: [@kefeyro](https://t.me/kefeyro)
 - GitHub Issues üzerinden bildirebilirsiniz
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın. 
