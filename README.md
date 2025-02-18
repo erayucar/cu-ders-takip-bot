@@ -78,7 +78,6 @@ Bu bot, Çukurova Üniversitesi ders kayıt sistemindeki derslerin kontenjan dur
 
 - Kullanıcı adı ve şifreler sadece oturum sırasında kullanılır, kaydedilmez
 - Şifre mesajları otomatik olarak silinir
-- Firebase veritabanında sadece kullanıcı tercihleri saklanır
 - Tüm iletişim HTTPS üzerinden şifreli olarak yapılır
 
 ## Sorun Giderme
